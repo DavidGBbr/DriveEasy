@@ -1,33 +1,31 @@
 "use client";
 import { Box, Container } from "@mui/material";
 import React from "react";
+import * as C from "../styles/page";
 
 const Home = () => {
   return (
     <div>
-      <Container>
+      <Container sx={{ marginTop: "100px" }}>
         <Box
           sx={{
-            height: "100vh",
             display: "flex",
-            justifyContent: "space-between",
+            justifyContent: "center",
             alignItems: "center",
+            flex: 1,
+            flexWrap: "wrap",
           }}
         >
-          <div>
-            <h1 className="title">
-              Descubra uma nova forma de se deslocar com facilidade e conforto.
-            </h1>
+          <C.ContainerInfo>
+            <h1>Desloque-se com facilidade e conforto.</h1>
 
             <p>
-              Seja para trabalho, lazer ou qualquer ocasião, nosso sistema de
-              deslocamento é a solução ideal para você. Com uma interface
-              intuitiva e recursos avançados, proporcionamos uma experiência
-              única, tornando cada viagem uma jornada prazerosa.
+              Nosso sistema de deslocamento é ideal para todas as ocasiões, com
+              uma interface intuitiva e recursos avançados. Faça de cada viagem
+              uma jornada prazerosa.
             </p>
-          </div>
-
-          <img src="/images/passenger_request.svg" style={{ maxWidth: 600 }} />
+          </C.ContainerInfo>
+          <C.Img src="/images/passenger_request.svg" />
         </Box>
       </Container>
     </div>

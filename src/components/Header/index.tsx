@@ -9,11 +9,9 @@ import {
 } from "@mui/material";
 import DriveEtaIcon from "@mui/icons-material/DriveEta";
 import DrawerMenu from "../Drawer";
-import { useTheme } from "@emotion/react";
 
 const Header = () => {
-  const [value, setValue] = useState();
-  const theme = useTheme();
+  const [value, setValue] = useState(0);
   const isMatch = useMediaQuery("(min-width:600px)");
   return (
     <>
