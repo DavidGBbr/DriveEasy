@@ -1,8 +1,6 @@
 "use client";
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
 import Header from "@/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
