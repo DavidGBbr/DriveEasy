@@ -21,7 +21,7 @@ export interface InterfaceGetClient {
   uf: string;
 }
 
-export interface InterfaceSignIn {
+export interface InterfaceSignInClient {
   nome: string;
   numeroDocumento: string;
 }
