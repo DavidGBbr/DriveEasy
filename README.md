@@ -1,34 +1,87 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Desafio de Desenvolvimento Front-End - Aplicação de Deslocamento</h1>
 
-## Getting Started
+###
 
-First, run the development server:
+<p align="left">• Aplicação front-end produzida com ReactJS e TypeScript, utilizando o framework Next.js e a biblioteca Material-UI, ela permite aos usuários interagir com a API Deslocamento para realizar operações relacionadas a clientes, condutores, deslocamentos e veículos.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+###
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="left">• Ela fornece interfaces para criar, visualizar, atualizar e excluir registros em cada uma dessas entidades, seguindo as melhores práticas e padrões de desenvolvimento.</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+###
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h2 align="left">Requisitos básicos:</h2>
 
-## Learn More
+###
 
-To learn more about Next.js, take a look at the following resources:
+<p align="left">1. Utilizar o framework Next.js para criar a aplicação ReactJS.</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+###
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="left">2. Utilizar TypeScript para escrever o código da aplicação.</p>
 
-## Deploy on Vercel
+###
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<p align="left">3. Implementar uma interface de usuário responsiva e amigável ao usuário, utilizando os componentes e estilos fornecidos pela biblioteca Material-UI.</p>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+###
+
+<p align="left">4. Fazer chamadas adequadas às rotas da API Deslocamento, utilizando os comandos correspondentes para realizar as operações necessárias em cada entidade.</p>
+
+###
+
+<p align="left">5. Exibir as informações retornadas pela API de forma clara e legível na interface.</p>
+
+###
+
+<p align="left">6. Implementar a navegação entre as diferentes telas da aplicação, utilizando as funcionalidades oferecidas pelo Next.js.</p>
+
+###
+
+<h2 align="left">Recursos Adicionais:</h2>
+
+###
+
+<p align="left">• Acesse a API Deslocamento utilizando a documentação fornecida: https://api-deslocamento.herokuapp.com/swagger/index.html.</p>
+
+###
+
+<p align="left">• Utilize bibliotecas ou ferramentas adicionais, como Axios ou Fetch, para realizar as chamadas à API e manipular os dados retornados.</p>
+
+###
+
+<p align="left">• Utilize os componentes e estilos fornecidos pela biblioteca Material-UI para criar a interface da aplicação.</p>
+
+###
+
+<h2 align="left">Como usar</h2>
+
+###
+
+<p align="left">1. Clone o repositório: https://github.com/DavidGBbr/DriveEasy.git</p>
+
+###
+
+<p align="left">2. Navegue até o diretório do projeto: cd DriveEasy</p>
+
+###
+
+<p align="left">3. Instale as dependências: npm install</p>
+
+###
+
+<p align="left">4. Inicie o servidor de desenvolvimento: npm run dev</p>
+
+###
+
+<p align="left">5. Abra o seu navegador e acesse a seguinte URL: http://localhost:3000</p>
+
+###
+
+<p align="left">• Com isso a aplicação estará rodando localmente e você poderá interagir com ela.</p>
+
+###
+
+<p align="left">Observação: Certifique-se de ter o Node.js e o npm instalados em sua máquina antes de executar os comandos acima.</p>
+
+###
