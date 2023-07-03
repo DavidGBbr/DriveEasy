@@ -73,7 +73,7 @@ const ClientRegister: React.FC = () => {
       const data = { ...formValues };
       const response = await signUpClient(data);
       if (response.status === 200) {
-        alert("Usuário criado com sucesso!");
+        alert("Usuário cadastrado com sucesso!");
         setFormValues({
           nome: "",
           numeroDocumento: "",

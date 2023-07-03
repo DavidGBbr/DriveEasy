@@ -1,5 +1,6 @@
 import { InterfaceSignUpClient, InterfaceSignInClient } from "@/types/client";
 import api from "./axiosConfig";
+import { InterfaceSignUpDriver } from "@/types/driver";
 
 export const signUpClient = async ({
   numeroDocumento,
@@ -31,6 +32,21 @@ export const signInClient = async ({
   const response = await api.post("/Cliente", {
     nome,
     numeroDocumento,
+  });
+  return response;
+};
+
+export const signUpDriver = async ({
+  nome,
+  numeroHabilitacao,
+  categoriaHabilitacao,
+  vencimentoHabilitacao,
+}: InterfaceSignUpDriver) => {
+  const response = await api.post("/Condutor", {
+    nome,
+    numeroHabilitacao,
+    categoriaHabilitacao,
+    vencimentoHabilitacao,
   });
   return response;
 };
